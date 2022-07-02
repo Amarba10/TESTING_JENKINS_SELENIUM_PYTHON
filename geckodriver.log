@@ -13869,3 +13869,203 @@ JavaScript warning: https://www.etsy.com/ac/primary/js/en-US/base.9dc403bf3b0d0d
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1656764213271	geckodriver	INFO	Listening on 127.0.0.1:63826
+1656764213777	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63827" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileuqnYzE"
+2022-07-02 15:16:54.499 plugin-container[34164:735898] nil host used in call to allowsSpecificHTTPSCertificateForHost
+1656764214518	Marionette	INFO	Marionette enabled
+2022-07-02 15:16:54.522 plugin-container[34164:735898] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:63827
+2022-07-02 15:16:54.635 plugin-container[34164:735898] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:16:54.635 plugin-container[34164:735898] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:16:54.635 plugin-container[34164:735930] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:16:54.635 plugin-container[34164:735930] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileuqnYzE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764215635	Marionette	INFO	Listening on port 63840
+Read port: 63840
+DevTools listening on ws://localhost:63827/devtools/browser/5edaf4e9-b7b5-44a6-ad02-4ebf1ac77170
+1656764215655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+1656764230575	Marionette	INFO	Stopped listening on port 63840
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656764230961	geckodriver	INFO	Listening on 127.0.0.1:63931
+1656764231477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63932" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofile6jGrXm"
+2022-07-02 15:17:11.765 plugin-container[34176:736464] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:11.765 plugin-container[34176:736464] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656764231771	Marionette	INFO	Marionette enabled
+2022-07-02 15:17:11.786 plugin-container[34176:736464] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:11.786 plugin-container[34176:736464] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:17:11.786 plugin-container[34176:736462] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:11.786 plugin-container[34176:736462] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:63932
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofile6jGrXm/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764232449	Marionette	INFO	Listening on port 63945
+DevTools listening on ws://localhost:63932/devtools/browser/323c256d-8507-4c41-a955-57fb8adc7c73
+Read port: 63945
+1656764232528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+1656764243129	Marionette	INFO	Stopped listening on port 63945
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656764243515	geckodriver	INFO	Listening on 127.0.0.1:64021
+1656764244034	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64022" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofile7wLnzQ"
+2022-07-02 15:17:24.369 plugin-container[34187:736946] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:24.369 plugin-container[34187:736946] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:17:24.372 plugin-container[34187:736946] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:24.372 plugin-container[34187:736946] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:17:24.372 plugin-container[34187:736953] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:24.372 plugin-container[34187:736953] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656764244375	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64022
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofile7wLnzQ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764244983	Marionette	INFO	Listening on port 64034
+DevTools listening on ws://localhost:64022/devtools/browser/98a9eacf-7f5d-4166-98ae-975f223d0a1f
+Read port: 64034
+1656764245086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656764260194	Marionette	INFO	Stopped listening on port 64034
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656764260599	geckodriver	INFO	Listening on 127.0.0.1:64119
+1656764261114	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64120" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileUWUrNd"
+2022-07-02 15:17:41.407 plugin-container[34198:737425] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:41.407 plugin-container[34198:737425] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656764261411	Marionette	INFO	Marionette enabled
+2022-07-02 15:17:41.429 plugin-container[34198:737425] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:41.429 plugin-container[34198:737425] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:17:41.429 plugin-container[34198:737423] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:17:41.429 plugin-container[34198:737423] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:64120
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileUWUrNd/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764262123	Marionette	INFO	Listening on port 64133
+DevTools listening on ws://localhost:64120/devtools/browser/20846e07-3030-4cc7-9c89-18dcc1e3404b
+Read port: 64133
+1656764262161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+1656764282746	Marionette	INFO	Stopped listening on port 64133
+1656764283141	geckodriver	INFO	Listening on 127.0.0.1:64212
+1656764283653	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64213" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofilen1ocvZ"
+2022-07-02 15:18:03.982 plugin-container[34209:737947] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:03.982 plugin-container[34209:737947] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:18:03.984 plugin-container[34209:737947] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:03.984 plugin-container[34209:737947] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:18:03.985 plugin-container[34209:737952] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:03.985 plugin-container[34209:737952] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656764283988	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64213
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofilen1ocvZ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764284724	Marionette	INFO	Listening on port 64227
+DevTools listening on ws://localhost:64213/devtools/browser/fd2c74f1-07ba-4193-bbef-c97534b81195
+Read port: 64227
+1656764284807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656764312289	Marionette	INFO	Stopped listening on port 64227
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656764312709	geckodriver	INFO	Listening on 127.0.0.1:64311
+1656764313220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64312" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileppJlGF"
+2022-07-02 15:18:33.594 plugin-container[34223:738528] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:33.594 plugin-container[34223:738528] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656764313598	Marionette	INFO	Marionette enabled
+2022-07-02 15:18:33.617 plugin-container[34223:738528] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:33.617 plugin-container[34223:738528] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:18:33.618 plugin-container[34223:738554] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:33.618 plugin-container[34223:738554] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:64312
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileppJlGF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764314241	Marionette	INFO	Listening on port 64325
+Read port: 64325
+DevTools listening on ws://localhost:64312/devtools/browser/d238e622-ffd1-48cd-9b21-97502e7b9914
+1656764314270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.etsy.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1656764328200	Marionette	INFO	Stopped listening on port 64325
+1656764328591	geckodriver	INFO	Listening on 127.0.0.1:64415
+1656764329102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64416" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileJMbCxt"
+2022-07-02 15:18:49.381 plugin-container[34234:739017] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:49.382 plugin-container[34234:739017] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:18:49.384 plugin-container[34234:739017] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:49.384 plugin-container[34234:739017] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:18:49.384 plugin-container[34234:739040] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:18:49.384 plugin-container[34234:739040] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656764329387	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64416
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileJMbCxt/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764330049	Marionette	INFO	Listening on port 64425
+DevTools listening on ws://localhost:64416/devtools/browser/13a73836-2ddb-4264-95d9-3006a1be2fa7
+Read port: 64425
+1656764330145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/base.d6fdbd99cb1d4ae0db46.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656764365233	Marionette	INFO	Stopped listening on port 64425
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656764365632	geckodriver	INFO	Listening on 127.0.0.1:64517
+1656764366153	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64518" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileusUlCb"
+2022-07-02 15:19:26.444 plugin-container[34250:739618] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:19:26.444 plugin-container[34250:739618] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656764366448	Marionette	INFO	Marionette enabled
+2022-07-02 15:19:26.466 plugin-container[34250:739618] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:19:26.466 plugin-container[34250:739618] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-02 15:19:26.467 plugin-container[34250:739623] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-02 15:19:26.467 plugin-container[34250:739623] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:64518
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/wv/92383mtd4nlbpv56sj0xnv0m0000gn/T/rust_mozprofileusUlCb/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656764367122	Marionette	INFO	Listening on port 64531
+DevTools listening on ws://localhost:64518/devtools/browser/3dd153ee-21d6-4908-a7dc-b9ea8b9067fd
+Read port: 64531
+1656764367206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript warning: https://www.etsy.com/ac/evergreen/js/en-US/app-shell/globals/index.41e5b94de97886ecae68.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656764373716	Marionette	INFO	Stopped listening on port 64531
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
