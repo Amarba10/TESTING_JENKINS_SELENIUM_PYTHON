@@ -21,7 +21,7 @@ import pytest
 @pytest.fixture()
 def driver():
 
-    chrome_driver_binary = r"./chromedriver.old 2"
+    chrome_driver_binary = r"./chromedriver"
     ser_chrome = ChromeService(chrome_driver_binary)
     driver = webdriver.Chrome(service=ser_chrome)
 

@@ -23,9 +23,9 @@ import pytest
 def driver():
     firefox_driver_binary = "./geckodriver"
     ser_firefox = FirefoxService(firefox_driver_binary)
+    firefox_options = FireFoxOptions()
 
-
-    browser_name = "safari"
+    browser_name = "firefox"
 
     # if isinstance(browserName,list):
     #     for browser_name in browserName:
@@ -37,7 +37,10 @@ def driver():
             # "browserVersion": "101.0.1(x64)",
             "platformName": "MAC"
         }
-        driver = webdriver.Remote("http://localhost:4444",desired_capabilities=dc)
+        firefox_options.add_argument("--headless")
+        firefox_options.add_argument("--disable-gpu")
+        driver = webdriver.Remote("http://localhost:1234", desired_capabilities=dc,options=firefox_options)
+
 
     elif browser_name == "safari":
         dc = {
@@ -68,6 +71,10 @@ def driver():
 
     yield driver
     driver.close()
+
+def test_google(driver):
+    driver.get("https://www.google.com/")
+    time.sleep(3)
 
 
 # Positive Scenario
