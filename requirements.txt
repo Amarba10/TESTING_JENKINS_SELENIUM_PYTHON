@@ -1,3 +1,5 @@
+allure-pytest==2.9.45
+allure-python-commons==2.9.45
 Appium-Python-Client==2.5.0
 async-generator==1.10
 attrs==21.4.0
