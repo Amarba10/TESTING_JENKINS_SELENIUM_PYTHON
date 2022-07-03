@@ -37,8 +37,8 @@ def driver():
             # "browserVersion": "101.0.1(x64)",
             "platformName": "MAC"
         }
-        firefox_options.add_argument("--headless")
-        firefox_options.add_argument("--disable-gpu")
+        # firefox_options.add_argument("--headless")
+        # firefox_options.add_argument("--disable-gpu")
         driver = webdriver.Remote("http://localhost:4444", desired_capabilities=dc,options=firefox_options)
 
 
@@ -74,7 +74,7 @@ def driver():
 
 def test_title(driver):
     driver.get("https://www.google.com/")
-    driver.save_screenshot("Screenshot.png")
+    # driver.save_screenshot("Screenshot.png")
     title = driver.title
     assert title == "Google"
 
