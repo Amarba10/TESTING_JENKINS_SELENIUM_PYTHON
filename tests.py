@@ -19,3 +19,4 @@ def test_base_route():
 def test_text_Stub():
     response = requests.get("http://localhost:3000/stub")
     assert response.text == 'Value of Stub: 200'
+
