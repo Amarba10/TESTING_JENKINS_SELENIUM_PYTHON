@@ -1,2 +1,11 @@
 venv
 .idea
+app.py
+config.py
+selenium-server-4.2.2.jar
+chromedriver
+chromedriver.old
+geckodriver
+geckodriver.log
+output.json
+requirements.txt
