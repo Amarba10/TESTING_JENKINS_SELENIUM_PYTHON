@@ -10,3 +10,7 @@ def test_text():
     response = requests.get("http://localhost:3000/")
     assert response.text == 'Welcome to the Application with updated code!'
 
+
+def test_base_route():
+    response = requests.get("http://localhost:3000/stub")
+    assert response.status_code == 200
